@@ -17,7 +17,7 @@ namespace YoutubePlayer
         /// </summary>
         public static bool UseLocalInstance { get; set; } = true;
 
-        public static string ServerUrl { get; set; } = "https://unity-youtube-dl-server.herokuapp.com";
+        public static string ServerUrl { get; set; } = "https://api.aimlab.gg/v1/video";
 
         static IYoutubeDl s_RemoteYoutubeDl = new RemoteYoutubeDl();
         static IYoutubeDl s_LocalYoutubeDl = new LocalYoutubeDl();
