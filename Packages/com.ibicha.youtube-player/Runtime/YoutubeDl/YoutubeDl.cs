@@ -17,7 +17,7 @@ namespace YoutubePlayer
         /// </summary>
         public static bool UseLocalInstance { get; set; } = true;
 
-        public static string ServerUrl { get; set; } = "https://api.aimlab.gg/v1/video";
+        public static string ServerUrl { get; set; } = "https://api.aimlab.gg";
 
         static IYoutubeDl s_RemoteYoutubeDl = new RemoteYoutubeDl();
         static IYoutubeDl s_LocalYoutubeDl = new LocalYoutubeDl();
